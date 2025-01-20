@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "sbs-firework-show-mod",
+  "version": "${version}",
+  "name": "Firework Show Mod",
+  "description": "",
+  "authors": [
+    "Timongcraft"
+  ],
+  "license": "MIT",
+  "icon": "assets/firework-show/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.skyblocksquad.FireworkShow"
+    ],
+    "fabric-datagen": [
+      "de.skyblocksquad.datagen.FireworkShowDataGenerator"
+    ],
+    "modmenu": [
+      "de.skyblocksquad.options.ModMenuConfig"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "firework-show.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "java": ">=21",
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "modmenu": ">=${modmenu_version}",
+    "cloth-config": ">=${cloth_config_version}"
+  }
+}

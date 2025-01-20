@@ -1,0 +1,20 @@
+{
+  "title.firework-show.config": "Firework Show Mod - Config",
+  "category.firework-show.vanilla_overrides": "Firework Show Mod - Vanilla Overrides",
+  "option.firework-show.particle_limit_override.tooltip": "Override for the vanilla particle limit (per particle type)",
+  "key.firework-show.particle_limit_override": "Particle Limit Override",
+  "key.firework-show.small_explosion_ball.overrides": "Small Explosion Override (Firework)",
+  "option.firework-show.small_explosion_ball_size": "Small Explosion-Ball Size Override",
+  "option.firework-show.small_explosion_ball_size.tooltip": "Override for the vanilla size for the small explosion ball of fireworks",
+  "option.firework-show.small_explosion_ball_amount": "Small Explosion-Ball Amount Override",
+  "option.firework-show.small_explosion_ball_amount.tooltip": "Override for the vanilla amount for the small explosion ball of fireworks",
+  "key.firework-show.large_explosion_ball.overrides": "Large Explosion Override (Firework)",
+  "option.firework-show.large_explosion_ball_size": "Large Explosion-Ball Size Override",
+  "option.firework-show.large_explosion_ball_size.tooltip": "Override for the vanilla size for the large explosion ball of fireworks",
+  "option.firework-show.large_explosion_ball_amount": "Large Explosion-Ball Amount Override",
+  "option.firework-show.large_explosion_ball_amount.tooltip": "Override for the vanilla amount for the large explosion ball of fireworks",
+
+  "keybind.firework-show.toggle.format": "%s: %s",
+  "keybind.firework-show.toggle.enabled": "Enabled",
+  "keybind.firework-show.toggle.disabled": "Disabled"
+}
